@@ -1,0 +1,46 @@
+function print0To255(){
+  var sum = 0;
+  for(i=0; i<=255; i++){
+  sum+=i;
+  console.log("newnumber: "+i+" sum: "+sum);
+    }
+  }
+print0To255();
+
+
+Notes:
+x+= means x= x+y
+aka sum = sum + i
+
+
+function printThroughArray() {
+ 
+var array = [
+
+Accessing a string on an array
+Arrays are zero based indexs
+
+function printThroughArray() {
+  var array = [1, 3, 5, 7, 9, 11, 13];
+ 
+  for(i=0; i<array.length; i++){
+    console.log(array[i]);
+}
+ }
+ 
+printThroughArray();
+
+
+
+function printThroughArray() {
+  var array = [1, 3, 5, 7, 9, 11, 13];
+  var sum = 0;
+ 
+  for(i=0; i<array.length; i++){
+    console.log(array[i]);
+    sum = sum + array[i];
+  }
+  console.log(sum);
+}
+ 
+printThroughArray();
