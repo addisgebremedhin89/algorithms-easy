@@ -76,3 +76,20 @@ function getAverage(inputArray) {
 }
 
 console.log("The average is =" +average);
+
+
+var inputArray = [2,10,3];
+
+function getAverage(inputArray) {
+  sum = 0;
+  for(i=0; i < inputArray.length; i++){
+  sum += inputArray[i];
+  average = inputArray.length / sum;
+  }
+}
+
+console.log("Average of =" +average);
+
+}
+
+getAverage(inputArray);
