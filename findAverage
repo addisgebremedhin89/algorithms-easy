@@ -1,0 +1,78 @@
+var inputArray = [2, 10, 3];
+
+function getAverage(inputArray) {
+  sum = 0;
+  for(i=0; i <= inputArray.length; i++){
+  sum = sum + i;
+  average = sum / inputArray.length;
+  console.log("The average is =" +average);
+   
+  }
+}
+
+getAverage();
+
+
+
+
+function getAverage(inputArray) {
+  for(i=0; i <= inputArray.length; i++){
+   sum+= i;
+    average = sum / inputArray.length {
+    console.log(("The average is =" +average);
+    }
+  }
+}
+
+getAverage(2,10,3);
+
+var inputArray = [2, 10, 3];
+
+function getAverage(inputArray) {
+  for(i=0; i <= inputArray.length; i++){
+   sum= 0
+    sum+= i;
+    average = sum / inputArray.length;
+    console.log("The average is =" +average);
+   
+  }
+}
+
+getAverage(2,10,3);
+
+var inputArray = [2, 10, 3];
+
+function getAverage(inputArray) {
+  sum = 0;
+  for(i=0; i <= inputArray.length; i++){
+  sum = sum + i;
+  average = sum / inputArray.length;
+  console.log("The average is =" +average);
+   
+  }
+}
+
+var inputArray = [2, 10, 3];
+
+function getAverage(inputArray) {
+  sum = 0;
+  for(i=0; i <= inputArray.length; i++){
+  sum = sum + i;
+  average = inputArray.length / sum;
+  }
+}
+
+console.log("The average is =" +average);
+
+
+var inputArray = [2, 10, 3];
+
+function getAverage(inputArray) {
+  sum = 0;
+  for(i=0; i <= inputArray.length; i++){
+  sum = sum + inputArray[1] + inputArray[2];
+  average = sum / inputArray.length;
+  }
+}
+
+console.log("The average is =" +average);
