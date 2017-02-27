@@ -1,0 +1,82 @@
+function printOddArray(y) {
+  for(i=1; i<=255; i++){
+  if(i % 2 = 1)
+  console.log(i)
+  }
+}
+
+// above i just assigned 1% 2 to 1. This is incorrect
+
+var y = [];
+  
+ function printOddArray(y) {
+  for(i=1; i<=256; i++){
+  if(i % 2)
+  console.log(i)
+  }
+}
+
+printOddArray(1,2,3,4,5);
+
+// above i modulus (%) 2 is a boolean (true/false) statement to only output the true numbers which are odd cause even is equal to 0
+
+
+var y = [];
+  
+ function printOddArray(y) {
+  for(i=1; i<=256; i+2){
+  if(i % 2 === 1){
+  y.push(i)
+  }
+}
+
+return y;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Print oddArray Algorithm
+
+
+var y = [];
+  
+ function printOddArray(y) {
+  for(i=1; i<=256; i+2){
+  if (i% 2)
+  }
+}
+
+  console.log(i.push)
+printOddArray(1,2,3,4,5);
+
+var y = [];
+  
+ function printOddArray(y) {
+  for(i=1; i<=256; i+2){
+  if (i% 2) /*if there is a remainder then itll
+    print out, this is likea  true/false
+    statement
+  }
+}
+
+  console.log(i.push)
+printOddArray(1,2,3,4,5);
+
+
+
+
+
+
