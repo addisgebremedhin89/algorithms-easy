@@ -1,0 +1,42 @@
+Square the Values
+
+Given any array "x", say [1, 5, 10, 2],
+Create an algorithm (set of instructions)
+that multiples each value in the array by itself
+when the program is done, the array "x" should have
+values that have been squared, say [1. 25. 100. 4]
+
+
+Psuedo Code
+
+1. Given a parameter "x" that will pass through a set of instructions
+2. Each value of the array will be ran thru a loop that begins at the 0 index and goes through the length of that array which will increment through each index value
+3. The first index in array "x" will be assigned to the first index in "x" multiplied by itself
+4. Repeat step 4 until th ened of the array length
+5. Print (console.log) parameter x
+6. Invoke the function
+
+function squareTheValues(x) {
+for(i=0; i <= x.length; i++) {
+
+x[i] = x[i] * x[i]
+console.log(x)
+
+  }
+}
+
+squareTheValues(x);
+
+var x = [1,5, 10, -2];
+
+function squareTheValues(x) {
+for(i=0; i < x.length; i++) {
+
+x[i] = x[i] * x[i];
+
+}
+console.log(x);
+
+}
+
+squareTheValues(x);
