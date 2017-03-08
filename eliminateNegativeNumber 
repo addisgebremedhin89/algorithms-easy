@@ -15,14 +15,12 @@ if positive leave as is
 var x = [1,5, 10, -2];
 
 function eliminateNegativeNum(x) {
-for(i=0; i < x.length; i++) {
+  for(i=0; i < x.length; i++) {
 
-  if(x[i] < 0); {
-  x[i] = 0;
-
-}
-  console.log(x);
-
+    if(x[i] < 0) {
+    x[i] = 0;
+    }
   }
+  console.log(x);
 }
 eliminateNegativeNum(x);
