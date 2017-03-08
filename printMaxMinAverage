@@ -1,0 +1,27 @@
+
+var x = [1, 5, 10, -2];
+var max = x[0];
+var min = x[0];
+var totalSum = x[0];
+
+function printMaxMinAverage(x) {
+  for(i=1; i < x.length; i++){
+
+ if(max < x[i]){
+    max = x[i];
+}
+ if(min > x[i]){
+    min = x[i];
+}
+ var avg = 0;
+ totalSum += x[i];
+  var avg = (totalSum / x.length);
+  
+
+}
+
+  console.log("Max number is" + max, "Min number is" +min , "and Average is" +avg);
+
+}
+
+printMaxMinAverage(x);
