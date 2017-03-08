@@ -38,3 +38,7 @@ Array [2,3,5,9]
 i             0  1  2  3
 array[i]      2  3  5  9
 output [i]    4  9  25 81
+
+why are arrays changebale in local and global
+
+when you override an index because you referencing the memory location of each index value of this array.
