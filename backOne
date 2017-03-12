@@ -1,0 +1,58 @@
+Given an array "x", say [1, 5, 10, 7, -2]
+Create an algorithm that shifts each number by one to the front.
+For example, when the program is done
+
+an x of [1, 5, 10, 7, -2] should become [5, 10, 7, -2, 1]
+
+var x = [1, 5, 10, -2];
+
+function backOne(x) {
+for (i=0; i<x.length; i++) {
+
+x[i] = x[1];
+x[i] = x[2];
+x[i] = x[3];
+x[i] = x[4];
+x[i] = x[0];
+
+console.log(i);
+}
+}
+
+backOne(x);
+
+
+_____
+
+var x = [1, 5, 10, -2];
+for (i=0; i<x.length; i++2) {
+
+x[i] = x[i];
+}
+
+console.log(x);
+}
+
+backOne(x);
+
+
+_____
+
+
+var x = [1, 5, 10, -2];
+
+function backOne(x) {
+ for (i=1; i<x.length; i++) {
+var end = x[0];
+x[i -1] = x[i];
+x[3] = end;
+}
+
+console.log(x);
+}
+
+backOne(x);
+
+
+
+
