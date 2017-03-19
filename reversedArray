@@ -1,0 +1,50 @@
+========================================
+
+Addis Solution
+
+Reverse Array
+Given an array, reverse the order of values
+
+Reversed array should have same length
+with elements moved to other indices so
+that the order of elements is reversed
+
+
+var arr = [1,2,3,4,5];
+
+  function reverseArray(arr) {
+  for(i=0, j=arr.length; i < arr.length/2, j < arr.length/2; i++, j--) {
+
+  temp = arr[i];
+
+  temp = j[i];
+  j[i] = temp;
+
+
+  }
+  console.log(arr);
+
+}
+
+
+reverseArray(arr);
+
+
+========================================
+
+Arif's Solution
+
+var arr =  [1, 2 3, 4, 5];
+
+function reverseArray(arr) {
+  for(var idx = arr.length - 1; idx >=arr.length/2; idx--) {
+
+  var temp = arr[idx];
+  arr[idx] = arr[arr.length - idx - 1];
+  arr[arr.length - idx - 1] = temp;
+
+  return arr;
+}
+ }
+
+reverseArray(arr);

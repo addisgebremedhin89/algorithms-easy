@@ -1,4 +1,4 @@
-My code:
+Create a function that My code:
 
 function fizzBuzz() {
   for(i=0; i <= 100; i++) {
