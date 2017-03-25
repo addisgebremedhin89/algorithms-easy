@@ -1,0 +1,7 @@
+Binary Search
+
+Given sorted array, return wheter a value is present
+Do not sequentially iterate: "divide and conquer",
+taking advantage of the fact that the array is sorted
+
+var arr = [1, 10, 100, 1000, 10000, 100000, 1000000, 10000000];
